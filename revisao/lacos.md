@@ -27,6 +27,28 @@ while i<= k:
   i += 2
 ```
 
+Exemplo 3 em Python:
+```python
+menu = '''
+
+  Sistema de Cadastro de Estudantes
+  =================================
+
+     1. Adicionar
+     2. Excluir
+     3. Listar
+     4. Pesquisar
+     5. Sair
+
+    Entre com sua opção: '''
+
+op = int(input(menu))
+
+while op != 5:
+    print('Opção escolhida:', op)
+    op = int(input(menu))
+```
+
 
 
 
