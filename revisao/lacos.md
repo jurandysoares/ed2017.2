@@ -49,6 +49,34 @@ while op != 5:
     op = int(input(menu))
 ```
 
+## Para
+
+```python
+for cidade in 'Parnamirim', 'Goianinha', 'Macaíba':
+  print(cidade)
+```
+
+```python
+# Obs.: Favor consultar as siglas corretas.
+for sigla,cidade in ('PAR', 'Parnamirim'), ('GHA', 'Goianinha'), ('MAC', 'Macaíba'):
+  print(sigla, cidade)
+```
+
+* `var`: identificador de sua variável
+* `vf`: valor final
+* `vi`: valor inicial
+* `passo`: valor que incrementará o valor inicial (vi)
+
+for var in range(vf+1):
+```python
+```
+
+for var in range(vi, vf+1):
+```python
+```
+for var in range(vi, vf+1, passo):
+```python
+```
 
 
 
