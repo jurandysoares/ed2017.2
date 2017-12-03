@@ -67,15 +67,18 @@ for sigla,cidade in ('PAR', 'Parnamirim'), ('GHA', 'Goianinha'), ('MAC', 'Macaí
 * `vi`: valor inicial
 * `passo`: valor que incrementará o valor inicial (vi)
 
-for var in range(vf+1):
 ```python
+for var in range(vf+1):
+  # Bloco do *for*
 ```
 
+```python
 for var in range(vi, vf+1):
-```python
+  # Bloco do *for*
 ```
-for var in range(vi, vf+1, passo):
 ```python
+for var in range(vi, vf+1, passo):
+  # Bloco do *for*
 ```
 
 
