@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 '''
-  Cria grafo de citaç
+  Cria grafo de citações (@nome) a partir de um 
+  diretório com arquivos de texto escritos no formato Markdown.
 '''
 import glob
 import re
